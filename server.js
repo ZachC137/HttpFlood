@@ -80,7 +80,7 @@ fastify.post('/http', async (request, reply) => {
 
 const startServer = async () => {
     try {
-        await fastify.listen(process.env.PORT, '0.0.0.0');
+        await fastify.listen(8080, '0.0.0.0');
         console.log(`server listening on ${fastify.server.address().port}`);
     } catch (err) {
         fastify.log.error(err);

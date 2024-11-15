@@ -1,0 +1,10 @@
+{
+  "apiTokens": [
+    { "token": "your_secret_token_1", "allowedRoutes": ["users"] },
+    { "token": "your_secret_token_2", "allowedRoutes": ["*"] }
+  ],
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com" },
+    { "id": 2, "name": "Jane Doe", "email": "jane@example.com" }
+  ]
+}
